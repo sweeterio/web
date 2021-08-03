@@ -188,7 +188,7 @@ class App:
                     real = eval('real' + s)
 
                 log.debug(f'DATA:{repr(expected)}')
-                log.debug('REAL:{repr(real)}')
+                log.debug(f'REAL:{repr(real)}')
                 try:
                     compare(expected, real)
                 except:
